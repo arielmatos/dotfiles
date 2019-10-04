@@ -96,4 +96,26 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+# Custom Additions
+brew install composer
+brew install php-cs-fixer
+brew install nvm
+brew install yarn
+brew install mysql
+
+brew cleanup
+
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+brew cask install brave-browser
+brew cask install dropbox
+brew cask install iterm2
+brew cask install graphiql
+brew cask install insomnia
+brew cask install spotify
+brew cask install sublime-text
+brew cask install tableplus
+brew cask install vagrant
+brew cask install virtualbox
+
 brew cleanup

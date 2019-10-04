@@ -1,41 +1,45 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
-	"file_exclude_patterns":
+	"always_show_minimap_viewport": true,
+	"auto_complete_triggers":
 	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		{
+			"characters": "bs3",
+			"selector": "text.html"
+		}
 	],
-	"folder_exclude_patterns":
+	"bold_folder_labels": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Fira Code",
+	"font_size": 18,
+	"ignored_packages":
 	[
-		".git",
-		"node_modules"
+		"PHPUnit Completions",
+		"SnippetMaker",
+		"SublimeLinter",
+		"Vintage"
 	],
-	"font_face": "Monaco",
-	"font_size": 13,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"line_padding_bottom": 5,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"remember_open_files": false,
-	"rulers":
+	"indent_guide_options":
 	[
-		80
+		"draw_normal",
+		"draw_active"
 	],
-	"show_encoding": true,
-	"show_line_endings": true,
+	"line_padding_bottom": 14,
+	"line_padding_top": 14,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_accent_sky": true,
+	"material_theme_appbar_charcoal": true,
+	"material_theme_big_fileicons": true,
+	"material_theme_bullet_tree_indicator": true,
+	"material_theme_tree_headings": true,
+	"overlay_scroll_bars": "enabled",
+	"phpunit-sublime-terminal": "iTerm",
+	"phpunit.php_executable": "/usr/local/opt/php/bin/php",
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
