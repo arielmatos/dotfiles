@@ -3,10 +3,10 @@
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
-brew update
+#brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade
+#brew upgrade
 
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
@@ -17,7 +17,7 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install some other useful utilities like `sponge`.
-# brew install moreutils
+brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
@@ -36,7 +36,7 @@ fi;
 brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
-# brew install gnupg
+brew install gnupg
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
@@ -53,33 +53,33 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-# brew install aircrack-ng
-# brew install bfg
-# brew install binutils
-# brew install binwalk
-# brew install cifer
-# brew install dex2jar
-# brew install dns2tcp
-# brew install fcrackzip
-# brew install foremost
-# brew install hashpump
-# brew install hydra
-# brew install john
-# brew install knock
-# brew install netpbm
-# brew install nmap
-# brew install pngcheck
-# brew install socat
-# brew install sqlmap
-# brew install tcpflow
-# brew install tcpreplay
-# brew install tcptrace
-# brew install ucspi-tcp # `tcpserver` etc.
-# brew install xpdf
-# brew install xz
+brew install aircrack-ng
+brew install bfg
+brew install binutils
+brew install binwalk
+brew install cifer
+brew install dex2jar
+brew install dns2tcp
+brew install fcrackzip
+brew install foremost
+brew install hashpump
+brew install hydra
+brew install john
+brew install knock
+brew install netpbm
+brew install nmap
+brew install pngcheck
+brew install socat
+brew install sqlmap
+brew install tcpflow
+brew install tcpreplay
+brew install tcptrace
+brew install ucspi-tcp # `tcpserver` etc.
+brew install xpdf
+brew install xz
 
 # Install other useful binaries.
-# brew install ack
+brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
@@ -100,16 +100,16 @@ brew install zopfli
 brew install composer
 brew install php-cs-fixer
 brew install nvm
-brew install yarn
+#brew install yarn
 brew install mysql
 
-brew cleanup
+#brew cleanup
 
-brew tap homebrew/cask-fonts
+#brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 brew cask install brave-browser
 brew cask install dropbox
-brew cask install iterm2
+#brew cask install iterm2
 brew cask install graphiql
 brew cask install insomnia
 brew cask install spotify
@@ -118,4 +118,4 @@ brew cask install tableplus
 brew cask install vagrant
 brew cask install virtualbox
 
-brew cleanup
+#brew cleanup
